@@ -5,30 +5,21 @@
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
 # To spin up an instance of ubuntu
-
 package 'ubuntu' do
- version : '14.04'
+ version: '14.04'
  action :create
 end
 
-#To install apache package and enable service
-
+# To install apache package and enable service
 package 'apache2' do
- action  :install
+ action :install
 end
-
 
 service 'apache2' do
  action [:enable, :start]
 end
 
-#To bring up a SQL server
-
-service 'mysql' do
- action: [:start, :enable]
+# To bring up a SQL server
+service 'mysqld' do
+ action [:enable, :start]
 end
-
-
-#To enable php package
-
-

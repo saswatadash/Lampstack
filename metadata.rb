@@ -1,6 +1,6 @@
 name 'cookbooksworkstation'
 maintainer 'The Authors'
-maintainer_email 'sdash@chef.io'
+maintainer_email 'saswata.dash31@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures cookbooksworkstation'
 long_description 'Installs/Configures cookbooksworkstation'
