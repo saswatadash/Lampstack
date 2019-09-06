@@ -3,18 +3,18 @@
 This cookbook features creation and comfiguration of a lampstack.
 
 
-Requirements
+Requirements:
 
-Supported platforms
+Supported platforms:
 Debian 
 Ubuntu
 
-Recipes
+Recipes:
 cookbooksworkstation::apache_httpd
 cookbooksworkstation::database
 cookbooksworkstation::php
 
 
-Usage
+Usage:
 This cookbook provides a default recipe with customised attributes to be able to spin up the necessary infrastructure. 
 
